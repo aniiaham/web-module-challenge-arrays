@@ -159,7 +159,7 @@ function removeFlavorByName(flavors, flavorName){
   // console.log(flavors);
   const index = flavors.findIndex(flavor => flavor === flavorName)
   console.log(index)
-  // flavors.splice(index,1)
+  flavors.splice(index,1)
   return flavors
 }
 removeFlavorByName(originalFlavors, 'Rocky Road')
